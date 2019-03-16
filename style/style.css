@@ -1,39 +1,5 @@
 /*color */
 /*color */
-@media screen and (min-width: 768px) {
-  .header {
-    min-height: 415px;
-    background-image: url(../img/bg_tablet.jpg);
-    background-repeat: no-repeat; }
-
-  .nav {
-    background-image: none;
-    min-height: auto;
-    align-items: center; }
-    .nav__burger-btn {
-      display: none; }
-    .nav__list {
-      display: flex;
-      justify-content: space-between;
-      list-style: none;
-      width: 100%;
-      margin: 0; }
-    .nav__link {
-      color: #FFFFFF;
-      text-decoration: none;
-      font-size: 0.875rem;
-      font-weight: 400; }
-
-  .heading {
-    color: #FFFFFF;
-    max-width: 400px; }
-    .heading__title {
-      font-size: 2.75rem;
-      font-weight: 900; }
-    .heading__subtitle {
-      font-size: 1.75rem;
-      font-weight: 700; } }
-/*color */
 .button {
   padding: 17px 35px;
   background-color: #008DCD;
@@ -43,6 +9,9 @@
   border: none;
   max-width: 280px;
   text-align: center; }
+
+* {
+  outline: none; }
 
 body {
   font-family: "Fira Sans", sans-serif; }
@@ -75,12 +44,14 @@ body {
   .header {
     min-height: 415px;
     background-image: url(../img/bg_tablet.jpg);
-    background-repeat: no-repeat; }
+    background-repeat: no-repeat;
+    background-size: cover; }
 
   .nav {
     background-image: none;
     min-height: auto;
-    align-items: center; }
+    align-items: center;
+    padding: 27px 35px; }
     .nav__burger-btn {
       display: none; }
     .nav__list {
@@ -97,12 +68,47 @@ body {
 
   .heading {
     color: #FFFFFF;
-    max-width: 400px; }
+    max-width: 400px;
+    padding: 27px 35px; }
     .heading__title {
       font-size: 2.75rem;
       font-weight: 900; }
     .heading__subtitle {
       font-size: 1.75rem;
       font-weight: 700; } }
+@media screen and (min-width: 1200px) {
+  body {
+    max-width: 1440px;
+    margin: 0 auto; }
+
+  .header {
+    min-height: 525px;
+    background-image: url(../img/bg_desktop.jpg);
+    background-repeat: no-repeat; }
+
+  .nav {
+    padding: 30px 140px; }
+    .nav__list {
+      padding-left: 140px; }
+    .nav__link {
+      font-size: 1.125rem;
+      font-weight: 400;
+      transition: font-weight 0.3s; }
+    .nav__link:hover {
+      font-weight: 700; }
+
+  .heading {
+    max-width: 400px;
+    padding: 88px 0 0 140px;
+    max-width: 750px; }
+
+  .logo__img {
+    width: 140px;
+    height: 46px; }
+
+  .button {
+    max-width: 360px; }
+    .button:hover {
+      box-shadow: 0 0.25rem 0.938rem rgba(27, 170, 235, 0.45); } }
 
 /*# sourceMappingURL=style.css.map */
