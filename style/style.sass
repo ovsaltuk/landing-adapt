@@ -1,48 +1,36 @@
 @import "var"
+@import "media"
+@import "button"
 
-.header
-  background-image: url(../img/bg_small.jpg)
-  background-repeat: no-repeat
-  background-size: contain
-  min-height: 505px
-  padding: 25px 20px
+body
+  font-family: 'Fira Sans', sans-serif
 
-.nav__list
-  display: none
-  list-style: none
-
-  &-el
-    padding: 0 5px
-
-.nav__link
-  text-decoration: none
-  font-size: 0.875rem
-
+/*header*/
 
 .nav
   display: flex
   justify-content: space-between
+  min-height: 227px
+  max-width: 100%
+  background-image: url(../img/bg_small.jpg)
+  background-repeat: no-repeat
+  padding: 27px 20px
+  background-size: cover
 
-.send
-  margin: 90% auto 0
+.nav__list
+  display: none
 
-.send__heading
-  font-size: 2rem
-  text-transform: uppercase
+.heading
+  display: flex
+  flex-direction: column
+  padding: 27px 20px
+  &__title
+    margin: 0
+    font-size: 2rem
+    letter-spacing: 0.1rem
 
-.send__subtitle
-  font-size: 1.5rem
-  font-weight: 700
 
-.send__btn
-  padding: 17px 35px
-  background-color: $blue
-  color: $white
-  text-transform: uppercase
-  border-radius: 30px
-  border: none
-  min-width: 278px
-  text-align: center
+
 
 
 @import "media"

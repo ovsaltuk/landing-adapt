@@ -1,26 +1,37 @@
 @import "var"
 
-@media screen and (min-width: 640px)
+@media screen and (min-width: 768px)
   .header
+    min-height: 415px
     background-image: url(../img/bg_tablet.jpg)
-  .nav__burger
-    display: none
-  .nav__list
-    display: flex
-    width: 100%
-    justify-content: space-between
-    margin: 0
+    background-repeat: no-repeat
+
+  .nav
+    background-image: none
+    min-height: auto
     align-items: center
-  .nav__link
-    color: $white
-  .send
-    max-width: 400px
-    margin: 55px 35px
-    &__heading, &__subtitle
+    &__burger-btn
+      display: none
+    &__list
+      display: flex
+      justify-content: space-between
+      list-style: none
+      width: 100%
+      margin: 0
+    &__link
       color: $white
+      text-decoration: none
+      font-size: 0.875rem
+      font-weight: 400
+
+
+
+  .heading
+    color: $white
+    max-width: 400px
+    &__title
+      font-size: 2.75rem
+      font-weight: 900
     &__subtitle
-      margin-bottom: 40px
-      margin-top: 40px
-
-
-
+      font-size: 1.75rem
+      font-weight: 700
