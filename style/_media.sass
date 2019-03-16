@@ -11,14 +11,17 @@
     min-height: auto
     align-items: center
     padding: 27px 35px
+
     &__burger-btn
       display: none
+
     &__list
       display: flex
       justify-content: space-between
       list-style: none
       width: 100%
       margin: 0
+
     &__link
       color: $white
       text-decoration: none
@@ -28,12 +31,41 @@
     color: $white
     max-width: 400px
     padding: 27px 35px
+
     &__title
       font-size: 2.75rem
       font-weight: 900
+
     &__subtitle
       font-size: 1.75rem
       font-weight: 700
+  .description
+    padding: 25px 34px 51px
+    background-image: url(../img/description-bg-tablet.svg)
+    background-position-x: 336px
+    background-position-y: 73px
+
+    &__heading
+      margin: 0
+      font-size: 2.25rem
+      font-weight: 700
+
+    &__text
+      max-width: 280px
+      margin-top: 25px
+      margin-bottom: 35px
+      font-size: 0.875rem
+      font-weight: 400
+
+  .steps
+    display: flex
+    justify-content: space-between
+    flex-wrap: wrap
+    padding: 38px 54px
+    max-width: 768px
+    margin: 0 auto
+    &__step
+      width: 278px
 
 @media screen and (min-width: 1200px)
   body
@@ -45,23 +77,50 @@
     background-repeat: no-repeat
   .nav
     padding: 30px 140px
+
     &__list
       padding-left: 140px
+
     &__link
       font-size: 1.125rem
       font-weight: 400
       transition: font-weight 0.3s
+
     &__link:hover
       font-weight: 700
   .heading
     max-width: 400px
     padding: 88px 0 0 140px
-    max-width: 750px
   .logo__img
     width: 140px
     height: 46px
-
   .button
     max-width: 360px
+
     &:hover
       box-shadow: 0 0.25rem 0.938rem rgba(27, 170, 235, 0.45)
+  .description
+    padding: 95px 140px 98px
+    background-image: url(../img/description-bd-desktop.svg)
+    background-position-x: 640px
+    background-position-y: center
+    &__heading
+      font-size: 2.25rem
+      font-weight: 700
+      max-width: 460px
+    &__text
+      font-size: 1rem
+      max-width: 438px
+
+  .steps
+    max-width: 1062px
+    padding: 68px 140px
+    &__step
+      width: 462px
+    &__step-img
+      width: 462px
+
+
+
+
+

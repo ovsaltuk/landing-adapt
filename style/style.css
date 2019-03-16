@@ -39,6 +39,38 @@ body {
     font-size: 2rem;
     letter-spacing: 0.1rem; }
 
+/*description */
+.description {
+  display: flex;
+  flex-direction: column;
+  background-color: #F7F7F7;
+  background-image: url(../img/description__img.svg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-position-y: 17px;
+  padding: 184px 20px 17px; }
+  .description__heading {
+    font-size: 1.125rem;
+    font-weight: 700; }
+  .description__text {
+    font-size: 0.75rem;
+    font-weight: 400; }
+
+.steps {
+  padding: 27px 20px;
+  max-width: 320px;
+  margin: 0 auto; }
+  .steps__step {
+    margin-bottom: 40px; }
+  .steps__step-img {
+    width: 277px; }
+  .steps__heading {
+    font-size: 1.625rem;
+    font-weight: 600; }
+  .steps__step-text {
+    font-size: 0.875rem;
+    font-weight: 400; }
+
 /*color */
 @media screen and (min-width: 768px) {
   .header {
@@ -75,7 +107,33 @@ body {
       font-weight: 900; }
     .heading__subtitle {
       font-size: 1.75rem;
-      font-weight: 700; } }
+      font-weight: 700; }
+
+  .description {
+    padding: 25px 34px 51px;
+    background-image: url(../img/description-bg-tablet.svg);
+    background-position-x: 336px;
+    background-position-y: 73px; }
+    .description__heading {
+      margin: 0;
+      font-size: 2.25rem;
+      font-weight: 700; }
+    .description__text {
+      max-width: 280px;
+      margin-top: 25px;
+      margin-bottom: 35px;
+      font-size: 0.875rem;
+      font-weight: 400; }
+
+  .steps {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 38px 54px;
+    max-width: 768px;
+    margin: 0 auto; }
+    .steps__step {
+      width: 278px; } }
 @media screen and (min-width: 1200px) {
   body {
     max-width: 1440px;
@@ -99,8 +157,7 @@ body {
 
   .heading {
     max-width: 400px;
-    padding: 88px 0 0 140px;
-    max-width: 750px; }
+    padding: 88px 0 0 140px; }
 
   .logo__img {
     width: 140px;
@@ -109,6 +166,27 @@ body {
   .button {
     max-width: 360px; }
     .button:hover {
-      box-shadow: 0 0.25rem 0.938rem rgba(27, 170, 235, 0.45); } }
+      box-shadow: 0 0.25rem 0.938rem rgba(27, 170, 235, 0.45); }
+
+  .description {
+    padding: 95px 140px 98px;
+    background-image: url(../img/description-bd-desktop.svg);
+    background-position-x: 640px;
+    background-position-y: center; }
+    .description__heading {
+      font-size: 2.25rem;
+      font-weight: 700;
+      max-width: 460px; }
+    .description__text {
+      font-size: 1rem;
+      max-width: 438px; }
+
+  .steps {
+    max-width: 1062px;
+    padding: 68px 140px; }
+    .steps__step {
+      width: 462px; }
+    .steps__step-img {
+      width: 462px; } }
 
 /*# sourceMappingURL=style.css.map */
