@@ -3,17 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="52ac66b7-3fbb-47d6-98ee-adf8fef8d4d7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/.sass-cache/3fdfb5d0c72175eb2ead4b8d53fbdaa671fa029e/_button.sassc" beforeDir="false" afterPath="$PROJECT_DIR$/style/.sass-cache/3fdfb5d0c72175eb2ead4b8d53fbdaa671fa029e/_button.sassc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/.sass-cache/3fdfb5d0c72175eb2ead4b8d53fbdaa671fa029e/_media.sassc" beforeDir="false" afterPath="$PROJECT_DIR$/style/.sass-cache/3fdfb5d0c72175eb2ead4b8d53fbdaa671fa029e/_media.sassc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/.sass-cache/3fdfb5d0c72175eb2ead4b8d53fbdaa671fa029e/_var.sassc" beforeDir="false" afterPath="$PROJECT_DIR$/style/.sass-cache/3fdfb5d0c72175eb2ead4b8d53fbdaa671fa029e/_var.sassc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/.sass-cache/3fdfb5d0c72175eb2ead4b8d53fbdaa671fa029e/style.sassc" beforeDir="false" afterPath="$PROJECT_DIR$/style/.sass-cache/3fdfb5d0c72175eb2ead4b8d53fbdaa671fa029e/style.sassc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/_button.sass" beforeDir="false" afterPath="$PROJECT_DIR$/style/_button.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/_media.sass" beforeDir="false" afterPath="$PROJECT_DIR$/style/_media.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/_var.sass" beforeDir="false" afterPath="$PROJECT_DIR$/style/_var.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.sass" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,8 +18,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="270">
-                  <caret line="67" selection-start-line="67" selection-end-line="67" />
+                <state relative-caret-position="360">
+                  <caret line="73" column="67" selection-start-line="73" selection-start-column="56" selection-end-line="73" selection-end-column="67" />
                   <folding>
                     <element signature="n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#section#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -69,8 +59,8 @@
                   <file pinned="false" current-in-tab="true">
                     <entry file="file://$PROJECT_DIR$/style/style.sass">
                       <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="236">
-                          <caret line="138" lean-forward="true" selection-start-line="138" selection-end-line="138" />
+                        <state relative-caret-position="-569">
+                          <caret line="105" column="9" lean-forward="true" selection-start-line="105" selection-start-column="9" selection-end-line="105" selection-end-column="9" />
                         </state>
                       </provider>
                     </entry>
@@ -82,8 +72,8 @@
                   <file pinned="false" current-in-tab="true">
                     <entry file="file://$PROJECT_DIR$/style/_media.sass">
                       <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="691">
-                          <caret line="200" column="23" selection-start-line="200" selection-start-column="23" selection-end-line="200" selection-end-column="23" />
+                        <state relative-caret-position="661">
+                          <caret line="207" column="4" selection-start-line="207" selection-start-column="4" selection-end-line="207" selection-end-column="4" />
                         </state>
                       </provider>
                     </entry>
@@ -228,12 +218,12 @@
       <updated>1552578410282</updated>
       <workItem from="1552578412609" duration="175000" />
       <workItem from="1552665931908" duration="8833000" />
-      <workItem from="1552677050403" duration="32084000" />
+      <workItem from="1552677050403" duration="32501000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41092000" />
+    <option name="totallyTimeSpent" value="41509000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
@@ -292,15 +282,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/style/style.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="138" lean-forward="true" selection-start-line="138" selection-end-line="138" />
+        <state relative-caret-position="-569">
+          <caret line="105" column="9" lean-forward="true" selection-start-line="105" selection-start-column="9" selection-end-line="105" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="67" selection-start-line="67" selection-end-line="67" />
+        <state relative-caret-position="360">
+          <caret line="73" column="67" selection-start-line="73" selection-start-column="56" selection-end-line="73" selection-end-column="67" />
           <folding>
             <element signature="n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -330,8 +320,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/style/_media.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="691">
-          <caret line="200" column="23" selection-start-line="200" selection-start-column="23" selection-end-line="200" selection-end-column="23" />
+        <state relative-caret-position="661">
+          <caret line="207" column="4" selection-start-line="207" selection-start-column="4" selection-end-line="207" selection-end-column="4" />
         </state>
       </provider>
     </entry>

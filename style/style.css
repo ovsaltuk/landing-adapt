@@ -404,6 +404,9 @@ body {
     .call__text-subtitle {
       font-size: 1.5rem; }
 
+  .button_call:hover {
+    box-shadow: 0 0.25rem 1.25rem rgba(255, 204, 0, 0.55); }
+
   .footer {
     padding: 35px 140px; }
 
