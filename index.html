@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="style/normalize.css">
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,400,700&amp;subset=cyrillic" rel="stylesheet">
     <link rel="stylesheet" href="style/style.css">
@@ -10,10 +11,48 @@
 </head>
 <body>
     <div class="container">
+        <nav class="mobile-nav">
+            <div class="mobile-nav__container">
+                <div class="mobile-nav__header">
+                    <a href="#" class="mobile-nav__logo-link">
+                        <img src="img/logo_blue.svg" alt="logo_blue" class="mobile-nav__logo-img">
+                    </a>
+                    <a href="#" class="mobile-nav__close-button">
+                        <img src="img/close-button.svg" alt="close-button" class="mobile-nav__close-button-img">
+                    </a>
+                </div>
+                <ul class="mobile-nav__nav-list">
+                    <li class="mobile-nav__nav-el"><a href="#" class="mobile-nav__nav-list-link">Отзывы</a></li>
+                    <li class="mobile-nav__nav-el"><a href="#" class="mobile-nav__nav-list-link">Гарантии</a></li>
+                    <li class="mobile-nav__nav-el"><a href="#" class="mobile-nav__nav-list-link">Описание</a></li>
+                    <li class="mobile-nav__nav-el"><a href="#" class="mobile-nav__nav-list-link">Партнёры</a></li>
+                    <li class="mobile-nav__nav-el"><a href="#" class="mobile-nav__nav-list-link">Преимущества</a></li>
+                    <li class="mobile-nav__nav-el"><a href="#" class="mobile-nav__nav-list-link">FAQ</a></li>
+                </ul>
+                <form action="#" class="footer__form">
+                    <h2 class="form__heading">ОСТАЛИСЬ ВОПРОСЫ?</h2>
+                    <input type="text" class="footer__phone" placeholder="Ваш телефон" required>
+                    <button class="button button_footer">заказать звонок</button>
+                    <div class="footer__checkbox-container">
+                        <input type="checkbox" class="footer__checkbox" id="header__checkbox" required>
+                        <label for="header__checkbox">Я согласен на обработку персональных данных</label>
+                    </div>
+                </form>
+                <div class="mobile-nav__socials">
+                    <a href="https://vk.com/" class="mobile-nav__socials-link">
+                        <i class="fab fa-vk"></i></a>
+                    <a href="https://www.instagram.com/?hl=ru" class="mobile-nav__socials-link">
+                        <i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/" class="mobile-nav__socials-link">
+                        <i class="fab fa-facebook-f"></i></a>
+                </div>
+            </div>
+        </nav>
         <div class="wrapper">
             <header class="header">
                 <nav class="nav nav_header">
-                    <a href="#" class="logo__link"><img src="img/logo__img_white.svg" alt="logo" class="logo__img"></a>
+                    <a href="#" class="logo__link"><img src="img/logo__img_white.svg" alt="logo" class="logo__img"
+                    id="nav_header"></a>
                     <ul class="nav__list">
                         <li><a href="#" class="nav__link">Отзывы</a></li>
                         <li><a href="#" class="nav__link">Гарантии</a></li>
@@ -22,7 +61,9 @@
                         <li><a href="#" class="nav__link">Преимущества</a></li>
                         <li><a href="#" class="nav__link">FAQ</a></li>
                     </ul>
-                    <a href="#" class="nav__burger-btn"><img src="img/Vector.svg" alt="burger"></a>
+                    <a href="#" class="nav__burger-btn nav__burger-btn_header">
+                        <img src="img/Vector.svg" alt="burger">
+                    </a>
                 </nav>
                 <section class="heading">
                     <h1 class="heading__title">ПРИДУМАЙТЕ ЧТО ОТПРАВИТЬ</h1>
@@ -98,7 +139,7 @@
                     <li><a href="#" class="nav__link nav__link_footer">Преимущества</a></li>
                     <li><a href="#" class="nav__link nav__link_footer">FAQ</a></li>
                 </ul>
-                <a href="#" class="nav__burger-btn"><img src="img/burger_black.svg" alt="burger"></a>
+                <a href="#nav_header" class="nav__burger-btn nav__burger-btn_footer"><img src="img/burger_black.svg" alt="burger"></a>
             </nav>
             <div class="footer__copyright">
                 <p class="footer__copyright-text">© Сами копипастим и вам разрешаем</p>
@@ -108,7 +149,7 @@
         </footer>
     </div>
 
-
+    <script src="js/mobile-nav.js"></script>
 </body>
 </html>
 

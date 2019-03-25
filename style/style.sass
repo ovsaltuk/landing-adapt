@@ -11,6 +11,7 @@ body
   font-family: 'Fira Sans', sans-serif
 
 .container
+  position: relative
   margin: 0 auto
   width: 320px
   min-height: 100%
@@ -20,8 +21,65 @@ body
 .wrapper
   flex-grow: 1
 
-/*header*/
 
+/*mobile-nav*/
+.mobile-nav
+  position: absolute
+  left: 0
+  top: 0
+  width: 100%
+  height: 100%
+  display: none
+  flex-direction: column
+  background: rgba(0, 0, 0, 0.2)
+
+
+.mobile-nav_visible
+  display: flex
+
+.mobile-nav__container
+  padding: 10px  20px
+  background-color: $white
+
+.mobile-nav__close-button
+  align-self: center
+
+.mobile-nav__header
+  display: flex
+  justify-content: space-between
+  align-content: center
+
+.mobile-nav__nav-list
+  list-style: none
+  padding-left: 0
+
+.mobile-nav__nav-el
+  margin-bottom: 20px
+
+.mobile-nav__nav-list-link
+  text-decoration: none
+  color: black
+  font-size: 1.1rem
+
+.mobile-nav__socials
+  display: flex
+  justify-content: space-between
+  &-link
+    text-decoration: none
+    display: flex
+    align-items: center
+    justify-content: center
+    width: 36px
+    height: 36px
+    background-color: $blue
+    color: $white
+    border-radius: 50%
+    font-size: 1.5rem
+
+
+
+
+/*header*/
 .nav
   display: flex
   justify-content: space-between

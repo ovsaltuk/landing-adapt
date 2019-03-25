@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52ac66b7-3fbb-47d6-98ee-adf8fef8d4d7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/js/mobile-nav.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/.sass-cache/3fdfb5d0c72175eb2ead4b8d53fbdaa671fa029e/style.sassc" beforeDir="false" afterPath="$PROJECT_DIR$/style/.sass-cache/3fdfb5d0c72175eb2ead4b8d53fbdaa671fa029e/style.sassc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/style.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.sass" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,14 +23,14 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="660">
-                  <caret line="120" lean-forward="true" selection-start-line="120" selection-end-line="120" />
+                <state relative-caret-position="933">
+                  <caret line="141" column="83" selection-start-line="141" selection-start-column="61" selection-end-line="141" selection-end-column="83" />
                   <folding>
-                    <element signature="n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#ul#0;n#nav#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#section#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                   </folding>
                 </state>
               </provider>
@@ -35,34 +41,26 @@
       <split-second>
         <splitter split-orientation="vertical" split-proportion="0.8240876">
           <split-first>
-            <splitter split-orientation="horizontal" split-proportion="0.46717557">
-              <split-first>
-                <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-                  <file pinned="false" current-in-tab="true">
-                    <entry file="file://$PROJECT_DIR$/style/style.sass">
-                      <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="225">
-                          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-                        </state>
-                      </provider>
-                    </entry>
-                  </file>
-                </leaf>
-              </split-first>
-              <split-second>
-                <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-                  <file pinned="false" current-in-tab="true">
-                    <entry file="file://$PROJECT_DIR$/style/_media.sass">
-                      <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="3105">
-                          <caret line="207" column="4" selection-start-line="207" selection-start-column="4" selection-end-line="207" selection-end-column="4" />
-                        </state>
-                      </provider>
-                    </entry>
-                  </file>
-                </leaf>
-              </split-second>
-            </splitter>
+            <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+              <file pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/style/style.sass">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="572">
+                      <caret line="82" column="4" lean-forward="true" selection-start-line="82" selection-start-column="4" selection-end-line="82" selection-end-column="4" />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/js/mobile-nav.js">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="270">
+                      <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+            </leaf>
           </split-first>
           <split-second>
             <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -94,8 +92,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="Sass File" />
         <option value="CSS File" />
+        <option value="Sass File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -117,9 +116,11 @@
         <option value="$PROJECT_DIR$/style/_button.css" />
         <option value="$PROJECT_DIR$/style/_var.sass" />
         <option value="$PROJECT_DIR$/style/_button.sass" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/style/style.sass" />
         <option value="$PROJECT_DIR$/style/_media.sass" />
+        <option value="$PROJECT_DIR$/mobile-nav.js" />
+        <option value="$PROJECT_DIR$/style/style.sass" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/mobile-nav.js" />
       </list>
     </option>
   </component>
@@ -143,6 +144,17 @@
               <item name="landing-adapt" type="b2602c69:ProjectViewProjectNode" />
               <item name="landing-adapt" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="landing-adapt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="landing-adapt" type="462c0819:PsiDirectoryNode" />
+              <item name="style" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="landing-adapt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="landing-adapt" type="462c0819:PsiDirectoryNode" />
+              <item name="style" type="462c0819:PsiDirectoryNode" />
+              <item name=".sass-cache" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -153,10 +165,15 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="list.type.of.created.stylesheet" value="Sass" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -185,15 +202,16 @@
       <workItem from="1552677050403" duration="32501000" />
       <workItem from="1553280344694" duration="198000" />
       <workItem from="1553282046667" duration="153000" />
-      <workItem from="1553491524961" duration="264000" />
+      <workItem from="1553491524961" duration="4412000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42124000" />
+    <option name="totallyTimeSpent" value="46272000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10365369" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -227,23 +245,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style/style.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style/style.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style/_media.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3105">
-          <caret line="207" column="4" selection-start-line="207" selection-start-column="4" selection-end-line="207" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/style/_var.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -258,17 +259,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/style/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="234" column="5" selection-start-line="234" selection-start-column="5" selection-end-line="234" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/_media.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1073">
+          <caret line="207" column="4" selection-start-line="207" selection-start-column="4" selection-end-line="207" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/style.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="82" column="4" lean-forward="true" selection-start-line="82" selection-start-column="4" selection-end-line="82" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="120" lean-forward="true" selection-start-line="120" selection-end-line="120" />
+        <state relative-caret-position="933">
+          <caret line="141" column="83" selection-start-line="141" selection-start-column="61" selection-end-line="141" selection-end-column="83" />
           <folding>
-            <element signature="n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#ul#0;n#nav#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/mobile-nav.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
         </state>
       </provider>
     </entry>
