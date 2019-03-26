@@ -1,0 +1,39 @@
+@import "var"
+
+@media screen and (min-width: 768px)
+  .main
+    background-image: url(../img/bg_tablet.svg)
+    background-repeat: no-repeat
+    background-size: cover
+    min-height: 413px
+  .header
+    min-height: 0
+  .container
+    max-width: 1024px
+    padding: 0 35px
+    &_header
+      align-items: center
+      padding-top: 27px
+
+
+  .header
+    background-image: none
+
+  .logo_header
+    margin-right: 20px
+
+  .nav
+    display: block
+    width: 100%
+    &__list
+      display: flex
+      justify-content: space-between
+      list-style: none
+    &__link
+      text-decoration: none
+      color: #ffffff
+      font-size: 0.875rem
+      font-weight: 400
+
+  .burger
+    display: none

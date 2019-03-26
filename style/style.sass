@@ -1,0 +1,38 @@
+@import "var"
+@import "main"
+
+html,
+body
+  margin: 0
+  padding: 0
+  font-family: 'Roboto', sans-serif
+  height: 100%
+
+ul
+  margin: 0
+  padding: 0
+
+.wrapper
+  display: flex
+  flex-direction: column
+  height: 100%
+  max-width: 1440px
+  margin: 0 auto
+
+.container
+  margin: 0 auto
+  max-width: 425px
+  padding: 0 20px
+  &_header
+    display: flex
+    justify-content: space-between
+    padding-top: 27px
+
+.content
+  flex: 1 0 auto
+
+.footer
+  flex: 0 0 auto
+
+
+@import "media"

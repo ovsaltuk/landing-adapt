@@ -1,0 +1,120 @@
+.header {
+  min-height: 277px;
+  background-image: url(../img/bg_mobile.png);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.nav {
+  display: none; }
+
+@media screen and (min-width: 768px) {
+  .main {
+    background-image: url(../img/bg_tablet.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 413px; }
+
+  .header {
+    min-height: 0; }
+
+  .container {
+    max-width: 1024px;
+    padding: 0 35px; }
+    .container_header {
+      align-items: center;
+      padding-top: 27px; }
+
+  .header {
+    background-image: none; }
+
+  .logo_header {
+    margin-right: 20px; }
+
+  .nav {
+    display: block;
+    width: 100%; }
+    .nav__list {
+      display: flex;
+      justify-content: space-between;
+      list-style: none; }
+    .nav__link {
+      text-decoration: none;
+      color: #ffffff;
+      font-size: 0.875rem;
+      font-weight: 400; }
+
+  .burger {
+    display: none; } }
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  height: 100%; }
+
+ul {
+  margin: 0;
+  padding: 0; }
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  max-width: 1440px;
+  margin: 0 auto; }
+
+.container {
+  margin: 0 auto;
+  max-width: 425px;
+  padding: 0 20px; }
+  .container_header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 27px; }
+
+.content {
+  flex: 1 0 auto; }
+
+.footer {
+  flex: 0 0 auto; }
+
+@media screen and (min-width: 768px) {
+  .main {
+    background-image: url(../img/bg_tablet.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 413px; }
+
+  .header {
+    min-height: 0; }
+
+  .container {
+    max-width: 1024px;
+    padding: 0 35px; }
+    .container_header {
+      align-items: center;
+      padding-top: 27px; }
+
+  .header {
+    background-image: none; }
+
+  .logo_header {
+    margin-right: 20px; }
+
+  .nav {
+    display: block;
+    width: 100%; }
+    .nav__list {
+      display: flex;
+      justify-content: space-between;
+      list-style: none; }
+    .nav__link {
+      text-decoration: none;
+      color: #ffffff;
+      font-size: 0.875rem;
+      font-weight: 400; }
+
+  .burger {
+    display: none; } }
+
+/*# sourceMappingURL=style.css.map */
