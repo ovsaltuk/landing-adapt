@@ -1,5 +1,10 @@
 @import "var"
 @import "button"
+@import "have-any-questions"
+@import "input-text"
+
+.main
+  position: relative
 
 .header
   min-height: 277px
@@ -28,6 +33,37 @@
   margin: 24px 0
   font-size: 1.5rem
   font-weight: 700
+
+.popup-menu
+  position: absolute
+  top: 0
+  left: 0
+  width: 100%
+  background-color: $white
+  padding-top: 15px
+
+.popup-menu__heading
+  display: flex
+  justify-content: space-between
+  align-items: center
+
+.popup-menu__nav
+  list-style: none
+
+.popup-menu__nav-link
+  text-decoration: none
+  font-size: 1.125rem
+  color: #000
+
+
+.popup-menu__nav-el
+  margin: 25px 0
+
+.popup-menu__socials
+  display: flex
+  justify-content: space-between
+  margin: 20px 0
+
 
 
 @import "media"
