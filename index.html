@@ -63,8 +63,9 @@
 
                 <form class="have-any-questions">
                     <h3 class="have-any-questions__title">ОСТАЛИСЬ ВОПРОСЫ?</h3>
-                    <input type="text" class="input-text input-text_have-any-questions" placeholder="Ваш телефон"
-                           required>
+                    <label for="phone"></label>
+                    <input type="text" class="input-text input-text_have-any-questions" id="phone"
+                           placeholder="Ваш телефон" required>
                     <button class="button">ЗАКАЗАТЬ ЗВОНОК</button>
                     <div class="popup-menu__checkbox-cont">
                         <input type="checkbox" id="popup-checkbox" required>
@@ -93,4 +94,21 @@
     <footer class="footer"></footer>
 </div>
 </body>
+<script>
+    let menuBtn = document.querySelector('.burger');
+    let popupMenu = document.querySelector('.popup-menu');
+    let closeBtn = popupMenu.querySelector('.popup-menu__close-button');
+
+
+    menuBtn.addEventListener('click', function(e) {
+        e.preventDefault();
+        popupMenu.classList.add('popup-menu_visible');
+    });
+
+    closeBtn.addEventListener('click', function (e) {
+        e.preventDefault();
+        popupMenu.classList.remove('popup-menu_visible');
+    });
+</script>
+
 </html>
