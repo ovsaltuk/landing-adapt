@@ -15,7 +15,9 @@
         <div class="main">
             <header class="header">
                 <div class="container container_header">
-                    <a href="#" class="logo logo_header"><img src="img/logo_white.svg" alt="logo_white" class="logo__img"></a>
+                    <a href="#" class="logo logo_header">
+                        <img src="img/logo_white.svg" alt="logo_white" class="logo__img">
+                    </a>
                     <nav class="nav">
                         <ul class="nav__list">
                             <li><a href="#" class="nav__link">Главная</a></li>
@@ -72,18 +74,16 @@
                         <label for="popup-checkbox" class="popup-menu__checkbox-label">
                             Я согласен на обработку персональных данных
                         </label>
-
                     </div>
-
                 </form>
                 <div class="popup-menu__socials">
-                    <a href="#" class="popup-menu__socials-link">
+                    <a href="https://vk.com" class="popup-menu__socials-link">
                         <img src="img/vk.svg" alt="vk" class="popup-menu__socials-img">
                     </a>
-                    <a href="#" class="popup-menu__socials-link">
+                    <a href="https://www.instagram.com/?hl=ru" class="popup-menu__socials-link">
                         <img src="img/instagram.svg" alt="instagram" class="popup-menu__socials-img">
                     </a>
-                    <a href="#" class="popup-menu__socials-link">
+                    <a href="https://www.facebook.com/" class="popup-menu__socials-link">
                         <img src="img/facebook.svg" alt="facebook" class="popup-menu__socials-img">
                     </a>
                 </div>
@@ -91,7 +91,23 @@
             </div>
         </div>
     </div>
-    <footer class="footer"></footer>
+    <footer class="footer">
+        <div class="container">
+            <form class="have-any-questions">
+                <h3 class="have-any-questions__title">ОСТАЛИСЬ ВОПРОСЫ?</h3>
+                <label for="phone-footer"></label>
+                <input type="text" class="input-text input-text_have-any-questions" id="phone-footer"
+                       placeholder="Ваш телефон" required>
+                <button class="button">ЗАКАЗАТЬ ЗВОНОК</button>
+                <div class="popup-menu__checkbox-cont">
+                    <input type="checkbox" id="popup-checkbox-footer" required>
+                    <label for="popup-checkbox-footer" class="popup-menu__checkbox-label">
+                        Я согласен на обработку персональных данных
+                    </label>
+                </div>
+            </form>
+        </div>
+    </footer>
 </div>
 </body>
 <script>

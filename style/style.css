@@ -39,6 +39,7 @@
   padding: 0 15px;
   color: #363636;
   font-size: 0.875rem;
+  background-color: transparent;
 }
 
 .main {
@@ -159,6 +160,7 @@
   padding: 0 15px;
   color: #363636;
   font-size: 0.875rem;
+  background-color: transparent;
 }
 
 @media screen and (min-width: 768px) {
@@ -310,6 +312,11 @@
   padding: 0 15px;
   color: #363636;
   font-size: 0.875rem;
+  background-color: transparent;
+}
+
+.footer {
+  background-color: #E9E9E9;
 }
 
 html,
@@ -393,6 +400,7 @@ ul {
   padding: 0 15px;
   color: #363636;
   font-size: 0.875rem;
+  background-color: transparent;
 }
 
 @media screen and (min-width: 768px) {
