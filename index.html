@@ -13,7 +13,7 @@
 <div class="wrapper">
     <div class="content">
         <div class="main">
-            <header class="header">
+            <header class="header" id="header">
                 <div class="container container_header">
                     <a href="#" class="logo logo_header">
                         <img src="img/logo_white.svg" alt="logo_white" class="logo__img">
@@ -99,21 +99,53 @@
                 <input type="text" class="input-text input-text_have-any-questions" id="phone-footer"
                        placeholder="Ваш телефон" required>
                 <button class="button">ЗАКАЗАТЬ ЗВОНОК</button>
-                <div class="popup-menu__checkbox-cont">
+                <div class="popup-menu__checkbox-cont popup-menu__checkbox-cont_footer">
                     <input type="checkbox" id="popup-checkbox-footer" required>
                     <label for="popup-checkbox-footer" class="popup-menu__checkbox-label">
                         Я согласен на обработку персональных данных
                     </label>
                 </div>
             </form>
+            <div class="footer__heading">
+                <a href="#header" class="logo logo_header">
+                    <img src="img/logo_blue.svg" alt="logo_blue" class="logo__img_blue">
+                </a>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li><a href="#" class="nav__link_footer">Главная</a></li>
+                        <li><a href="#" class="nav__link_footer">Отзывы</a></li>
+                        <li><a href="#" class="nav__link_footer">Гарантии</a></li>
+                        <li><a href="#" class="nav__link_footer">Описание</a></li>
+                        <li><a href="#" class="nav__link_footer">Партнёры</a></li>
+                        <li><a href="#" class="nav__link_footer">Преимущества</a></li>
+                        <li><a href="#" class="nav__link_footer">FAQ</a></li>
+                    </ul>
+                </nav>
+                <a href="#header" class="burger_footer">
+                    <img src="img/burger_black.svg" alt="burger_white" class="burger__img">
+                </a>
+            </div>
+            <div class="footer__socials">
+                <a href="https://vk.com" class="footer__socials-link">
+                    <img src="img/vk.svg" alt="vk" class="footer__socials-img">
+                </a>
+                <a href="https://www.instagram.com/?hl=ru" class="footer__socials-link">
+                    <img src="img/instagram.svg" alt="instagram" class="footer__socials-img">
+                </a>
+                <a href="https://www.facebook.com/" class="footer__socials-link">
+                    <img src="img/facebook.svg" alt="facebook" class="footer__socials-img">
+                </a>
+            </div>
         </div>
     </footer>
 </div>
 </body>
+<script src="jquery.js"></script>
 <script>
     let menuBtn = document.querySelector('.burger');
     let popupMenu = document.querySelector('.popup-menu');
     let closeBtn = popupMenu.querySelector('.popup-menu__close-button');
+    let menuFooterBtn = document.querySelector('.burger_footer');
 
 
     menuBtn.addEventListener('click', function(e) {
@@ -124,6 +156,12 @@
     closeBtn.addEventListener('click', function (e) {
         e.preventDefault();
         popupMenu.classList.remove('popup-menu_visible');
+    });
+
+    menuFooterBtn.addEventListener('click', function(e){
+        e.preventDefault();
+        popupMenu.classList.add('popup-menu_visible');
+        $('html, body').animate({ scrollTop: $("#header").offset().top }, 1200);
     });
 </script>
 
