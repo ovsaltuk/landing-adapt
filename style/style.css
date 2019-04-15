@@ -119,6 +119,10 @@
   margin: 20px 0;
 }
 
+.nothing {
+  min-height: 100vh;
+}
+
 .button {
   outline: none;
   border-radius: 1.875rem;
@@ -161,6 +165,27 @@
   color: #363636;
   font-size: 0.875rem;
   background-color: transparent;
+}
+
+.description {
+  background-color: #f7f7f7;
+}
+.description__title {
+  font-size: 1.125rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.description__text {
+  font-size: 0.75rem;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.container_description {
+  display: flex;
+  flex-direction: column;
+  padding-top: 17px;
+  padding-bottom: 17px;
 }
 
 @media screen and (min-width: 768px) {
@@ -239,6 +264,36 @@
 .input-text {
     max-width: 280px;
   }
+
+  .description {
+    background-image: url(../img/description__img.svg);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-position-x: 90%;
+    background-position-y: 81%;
+  }
+  .description__img {
+    display: none;
+  }
+  .description__title {
+    font-size: 2.25rem;
+    font-weight: 700;
+    margin-top: 0;
+  }
+  .description__text {
+    width: 276px;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  .container_description {
+    padding-top: 27px;
+    padding-bottom: 27px;
+  }
+
+  .burger_footer {
+    display: none;
+  }
 }
 @media screen and (min-width: 1440px) {
   .main {
@@ -269,6 +324,33 @@
   .button,
 .input-text {
     max-width: 360px;
+  }
+
+  .description {
+    background-image: url(../img/description__img.svg);
+    background-repeat: no-repeat;
+    background-size: 600px;
+    background-position-x: 81%;
+    background-position-y: 54%;
+  }
+  .description__img {
+    display: none;
+  }
+  .description__title {
+    font-size: 2.25rem;
+    font-weight: 700;
+    margin-top: 0;
+    width: 425px;
+  }
+  .description__text {
+    width: 425px;
+    font-size: 0.875rem;
+    font-weight: 400;
+  }
+
+  .container_description {
+    padding-top: 86px;
+    padding-bottom: 86px;
   }
 }
 .button {
@@ -313,6 +395,27 @@
   color: #363636;
   font-size: 0.875rem;
   background-color: transparent;
+}
+
+.description {
+  background-color: #f7f7f7;
+}
+.description__title {
+  font-size: 1.125rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.description__text {
+  font-size: 0.75rem;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.container_description {
+  display: flex;
+  flex-direction: column;
+  padding-top: 17px;
+  padding-bottom: 17px;
 }
 
 .footer {
@@ -443,6 +546,27 @@ ul {
   background-color: transparent;
 }
 
+.description {
+  background-color: #f7f7f7;
+}
+.description__title {
+  font-size: 1.125rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.description__text {
+  font-size: 0.75rem;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.container_description {
+  display: flex;
+  flex-direction: column;
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+
 @media screen and (min-width: 768px) {
   .main {
     background-image: url(../img/bg_tablet.svg);
@@ -519,6 +643,36 @@ ul {
 .input-text {
     max-width: 280px;
   }
+
+  .description {
+    background-image: url(../img/description__img.svg);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-position-x: 90%;
+    background-position-y: 81%;
+  }
+  .description__img {
+    display: none;
+  }
+  .description__title {
+    font-size: 2.25rem;
+    font-weight: 700;
+    margin-top: 0;
+  }
+  .description__text {
+    width: 276px;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  .container_description {
+    padding-top: 27px;
+    padding-bottom: 27px;
+  }
+
+  .burger_footer {
+    display: none;
+  }
 }
 @media screen and (min-width: 1440px) {
   .main {
@@ -549,6 +703,33 @@ ul {
   .button,
 .input-text {
     max-width: 360px;
+  }
+
+  .description {
+    background-image: url(../img/description__img.svg);
+    background-repeat: no-repeat;
+    background-size: 600px;
+    background-position-x: 81%;
+    background-position-y: 54%;
+  }
+  .description__img {
+    display: none;
+  }
+  .description__title {
+    font-size: 2.25rem;
+    font-weight: 700;
+    margin-top: 0;
+    width: 425px;
+  }
+  .description__text {
+    width: 425px;
+    font-size: 0.875rem;
+    font-weight: 400;
+  }
+
+  .container_description {
+    padding-top: 86px;
+    padding-bottom: 86px;
   }
 }
 

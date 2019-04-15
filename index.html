@@ -20,10 +20,10 @@
                     </a>
                     <nav class="nav">
                         <ul class="nav__list">
-                            <li><a href="#" class="nav__link">Главная</a></li>
+                            <li><a href="#header" class="nav__link">Главная</a></li>
                             <li><a href="#" class="nav__link">Отзывы</a></li>
                             <li><a href="#" class="nav__link">Гарантии</a></li>
-                            <li><a href="#" class="nav__link">Описание</a></li>
+                            <li><a href="#description" class="nav__link">Описание</a></li>
                             <li><a href="#" class="nav__link">Партнёры</a></li>
                             <li><a href="#" class="nav__link">Преимущества</a></li>
                             <li><a href="#" class="nav__link">FAQ</a></li>
@@ -90,6 +90,18 @@
 
             </div>
         </div>
+        <div class="description" id="description">
+            <div class="container container_description">
+                <img src="img/description__img.svg" alt="description img" class="description__img">
+                <h3 class="description__title">Мы – агрегатор служб доставки</h3>
+                <p class="description__text">С&nbsp;нами удобно вам, вашим клиентам
+                    и&nbsp;курьерским службам. Для вас наши услуги бесплатны, так как
+                    мы&nbsp;получаем бонусы от&nbsp;служб доставок за&nbsp;предоставленный объем заказов,
+                    а&nbsp;вы&nbsp;получаете надежный сервис в&nbsp;подарок!</p>
+                <button class="button">отправить посылку</button>
+            </div>
+        </div>
+        
     </div>
     <footer class="footer">
         <div class="container">
@@ -112,17 +124,17 @@
                 </a>
                 <nav class="nav">
                     <ul class="nav__list">
-                        <li><a href="#" class="nav__link_footer">Главная</a></li>
+                        <li><a href="#header" class="nav__link_footer">Главная</a></li>
                         <li><a href="#" class="nav__link_footer">Отзывы</a></li>
                         <li><a href="#" class="nav__link_footer">Гарантии</a></li>
-                        <li><a href="#" class="nav__link_footer">Описание</a></li>
+                        <li><a href="#description" class="nav__link_footer">Описание</a></li>
                         <li><a href="#" class="nav__link_footer">Партнёры</a></li>
                         <li><a href="#" class="nav__link_footer">Преимущества</a></li>
                         <li><a href="#" class="nav__link_footer">FAQ</a></li>
                     </ul>
                 </nav>
                 <a href="#header" class="burger_footer">
-                    <img src="img/burger_black.svg" alt="burger_white" class="burger__img">
+                    <img src="img/burger_black.svg" alt="burger_black" class="burger__img">
                 </a>
             </div>
             <div class="footer__socials">
@@ -148,6 +160,7 @@
     let menuFooterBtn = document.querySelector('.burger_footer');
 
 
+
     menuBtn.addEventListener('click', function(e) {
         e.preventDefault();
         popupMenu.classList.add('popup-menu_visible');
@@ -163,6 +176,15 @@
         popupMenu.classList.add('popup-menu_visible');
         $('html, body').animate({ scrollTop: $("#header").offset().top }, 1200);
     });
+
+
+    $('.nav__list').on('click','a', function (event) {
+        event.preventDefault();
+        let id  = $(this).attr('href'),
+            top = $(id).offset().top;
+        $('body,html').animate({scrollTop: top}, 1200);
+        });
+
 </script>
 
 </html>

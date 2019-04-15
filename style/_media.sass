@@ -2,6 +2,7 @@
 @import "button"
 @import "have-any-questions"
 @import "input-text"
+@import "description"
 
 @media screen and (min-width: 768px)
   .main
@@ -64,6 +65,31 @@
   .input-text
     max-width: 280px
 
+  .description
+    background-image: url(../img/description__img.svg)
+    background-repeat: no-repeat
+    background-size: 400px
+    background-position-x: 90%
+    background-position-y: 81%
+    &__img
+      display: none
+    &__title
+      font-size: 2.25rem
+      font-weight: 700
+      margin-top: 0
+    &__text
+      width: 276px
+      font-size: 1rem
+      font-weight: 400
+
+  .container_description
+    padding-top: 27px
+    padding-bottom: 27px
+
+  .burger_footer
+    display: none
+
+
 
 
 
@@ -92,3 +118,25 @@
   .button,
   .input-text
     max-width: 360px
+
+  .description
+    background-image: url(../img/description__img.svg)
+    background-repeat: no-repeat
+    background-size: 600px
+    background-position-x: 81%
+    background-position-y: 54%
+    &__img
+      display: none
+    &__title
+      font-size: 2.25rem
+      font-weight: 700
+      margin-top: 0
+      width: 425px
+    &__text
+      width: 425px
+      font-size: 0.875rem
+      font-weight: 400
+
+  .container_description
+    padding-top: 86px
+    padding-bottom: 86px
